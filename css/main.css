@@ -124,7 +124,7 @@ body {
 }
 
 .footer_logo{
-	padding-top:20px;
+	margin-top:20px;
 	font-size:.5em;
 	color:#DDDDDD;
 }
@@ -136,7 +136,7 @@ body {
 .footer hr {
 	height: 8px;
 	border: 0;
-	/*box-shadow: 0 10px 10px -10px #20f392 inset;*/
+	margin-top:15px;
 	background: rgba(32,243,146,1);
 	background: -moz-linear-gradient(left, rgba(32,243,146,1) 0%, rgba(248,245,56,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(32,243,146,1)), color-stop(100%, rgba(248,245,56,1)));
