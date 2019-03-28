@@ -201,7 +201,7 @@ var chart = am4core.create("chartdiv", am4charts.TreeMap);
 chart.hiddenState.properties.opacity = 0;
 
 chart.data = [{
-  name: "First",
+  name: "BTC Layer 1",
   children: [
     {
       name: "A1",
@@ -218,24 +218,24 @@ chart.data = [{
   ]
 },
 {
-  name: "Second",
+  name: "BTC Lightning",
   children: [
     {
       name: "B1",
-      value: 135
+      value: 13
     },
     {
       name: "B2",
-      value: 98
+      value: 15
     },
     {
       name: "B3",
-      value: 56
+      value: 22
     }
   ]
 },
 {
-  name: "Third",
+  name: "Exchanges",
   children: [
     {
       name: "C1",
@@ -256,7 +256,7 @@ chart.data = [{
   ]
 },
 {
-  name: "Fourth",
+  name: "Futures",
   children: [
     {
       name: "D1",
@@ -281,7 +281,7 @@ chart.data = [{
   ]
 },
 {
-  name: "Fifth",
+  name: "Derivatives",
   children: [
     {
       name: "E1",
