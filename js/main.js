@@ -9,7 +9,7 @@ function showResults(){
 
 
 
-
+function switchcharts(){
  var killcoffee = setTimeout(function()
  {
  	$("#chartdiv").toggle("blind", function(){
@@ -21,4 +21,4 @@ function showResults(){
  		});
 
  }, 2000);
- 
+ }

@@ -366,4 +366,4 @@ setInterval(function () {
 
 }
 
-coffee();
+maptest();
