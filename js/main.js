@@ -1,8 +1,20 @@
+ 
+
+function showResults(){
+	var search = document.getElementById('search_input');
+	var query = search.value;
+	$("#results").html((query.length >0 )?'Results for: ' + query:'' + query);
+
+}
+
+
+
+
  var killcoffee = setTimeout(function()
  {
  	$("#chartdiv").toggle("blind", function(){
- 		$(".welcome").toggle("slide");
+ 		$(".wait").toggle("slide");
  	});
 
- }, 3000);
+ }, 4000);
  

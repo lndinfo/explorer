@@ -1,0 +1,30 @@
+body {
+	font-family: calibri,sans-serif;
+}
+
+
+#container {
+	text-align:center;
+}
+
+#chartdiv {
+	width: 100%;
+	height: 500px;
+}
+
+
+.welcome {
+	font-family: calibri,sans-serif;
+	font-weight:bolder;
+	font-size:2em;
+	;
+}
+
+.wait {
+ 	display:none;
+ }
+
+ #results {
+ 	font-size:3em;
+ 	text-align:left;
+ }
