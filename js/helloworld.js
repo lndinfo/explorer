@@ -216,7 +216,7 @@ am4core.useTheme(am4themes_animated);
 var chart = am4core.create("chartdiv", am4maps.MapChart);
 
 var title = chart.titles.create();
-title.text = "[bold font-size: 20]Population of the World in 2011[/]\nsource: Gapminder";
+title.text = "[bold font-size: 20]lndinfo[/]\ntest";
 title.textAlign = "middle";
 
 var latlong = {
