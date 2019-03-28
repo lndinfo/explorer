@@ -1,10 +1,74 @@
 body {
 	font-family: calibri,sans-serif;
+	background-color:#222;
+	margin:0;
 }
+
+
+.header {
+
+	background-color: #20f392;
+	padding: 20px;
+	display:block;
+}
+
+.header div{
+	display:inline-block;
+}
+
+.navigation {
+	overflow: hidden;
+	background-color: #20f392;
+	text-align:center;
+	width:33%;
+}
+
+.navigation a {
+	float: center;
+	color: #222222;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.logo {
+	float:left;
+	text-align:left;
+	width:33%;
+}
+
+.logo img{
+	position:absolute;
+	top:9px;
+}
+
+.search {
+	float:right;
+	text-align:right;
+	width:33%;
+}
+
+.navigation a:visited {
+	color: #222222;
+}
+
+.navigation a:hover {
+ 	color: #222222;
+}
+
+.navigation a:active {
+	color: #222222;
+}
+
+
+
+
+
 
 
 #container {
 	text-align:center;
+
 }
 
 #chartdiv {
@@ -26,5 +90,6 @@ body {
 
  #results {
  	font-size:3em;
+ 	font-weight:bold;
  	text-align:left;
  }

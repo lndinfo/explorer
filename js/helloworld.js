@@ -14,7 +14,7 @@ chart.data = [{
     "value": 10,
     "disabled":true
 }, {
-    "name": "Working",
+    "name": "Building",
     "value": 90
 }];
 
