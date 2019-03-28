@@ -54,20 +54,18 @@ body {
 	width:20%;
 }
 
-@media (max-width:900px){
-	.logo {
-  	font-size:1em;
-  }
-}
 
 @media (max-width:800px){
-  .navigation, .logo, .search {
-    width:100%;
-    text-align:center;
-    display:inline-block;
-    float:none;
-
-  }
+	.navigation, .logo, .search {
+	    width:100%;
+	    text-align:center;
+	    display:inline-block;
+	    float:none;
+	}
+	.navigation a{
+   		font-size:.8em;
+   		padding: 5px 8px;
+   }
 
 }
 
