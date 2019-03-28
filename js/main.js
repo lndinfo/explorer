@@ -13,7 +13,11 @@ function showResults(){
  var killcoffee = setTimeout(function()
  {
  	$("#chartdiv").toggle("blind", function(){
- 		$(".wait").toggle("slide");
+ 		$(".wait").toggle("slide", function(){
+
+ 		});
+ 	}).empty().show(1, function(){
+ 		dategraph();
  	});
 
  }, 4000);
