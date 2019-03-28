@@ -17,7 +17,7 @@ function showResults(){
 
  		});
  	}).empty().show(1, function(){
- 		dategraph();
+ 		boxes();
  	});
 
  }, 4000);
