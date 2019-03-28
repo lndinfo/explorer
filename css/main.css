@@ -25,13 +25,11 @@ body {
 	font-size:2em;
 }
 
-.logo a{
-	position:relative;
-	top:-20px;
-}
+
 
 .logo img{
-
+	position:relative;
+	top:-10px;
 }
 
 
