@@ -16,14 +16,33 @@ body {
 	display:inline-block;
 }
 
+
+.logo {
+	float:left;
+	text-align:left;
+	width:20%;
+	font-weight:bolder;
+	font-size:2em;
+}
+
+.logo a{
+	position:relative;
+	top:-20px;
+}
+
+.logo img{
+
+}
+
+
 .navigation {
 	overflow: hidden;
 	background-color: #20f392;
 	text-align:center;
-	width:33%;
+	width:60%;
 }
 
-.navigation a {
+.navigation a, .logo a {
 	float: center;
 	color: #222222;
 	text-align: center;
@@ -31,21 +50,27 @@ body {
 	text-decoration: none;
 }
 
-.logo {
-	float:left;
-	text-align:left;
-	width:33%;
-}
-
-.logo img{
-	position:absolute;
-	top:9px;
-}
-
 .search {
 	float:right;
 	text-align:right;
-	width:33%;
+	width:20%;
+}
+
+@media (max-width:900px){
+	.logo {
+  	font-size:1em;
+  }
+}
+
+@media (max-width:800px){
+  .navigation, .logo, .search {
+    width:100%;
+    text-align:center;
+    display:inline-block;
+    float:none;
+
+  }
+
 }
 
 .navigation a:visited {
