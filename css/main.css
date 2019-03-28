@@ -48,7 +48,7 @@ body {
 	text-decoration: none;
 }
 
-.search {
+.options {
 	float:right;
 	text-align:right;
 	width:20%;
@@ -56,7 +56,7 @@ body {
 
 
 @media (max-width:800px){
-	.navigation, .logo, .search {
+	.navigation, .logo, .options {
 	    width:100%;
 	    text-align:center;
 	    display:inline-block;
@@ -89,14 +89,49 @@ body {
 
 #container {
 	text-align:center;
+	display:block;
 
 }
 
 #chartdiv {
-	width: 100%;
-	height: 500px;
+	width:80%;
+	height: 600px;
 	color:#ffffff;
 }
+
+ #results {
+ 	width:18%;
+ 	text-align:center;
+ 	padding:10px;
+ }
+
+
+
+ #results div{
+	border-image: linear-gradient(to right, #20f392 0%,#f8f538 100%);
+    border-image-slice: 1;
+    border-width: 1px;
+    border-style:solid;
+    margin:5px;
+    padding:5px;
+    color:#20f392;
+    font-size:.8em;
+    text-align:left;
+ }
+
+ @media (max-width:1100px){
+	#chartdiv, #results, #results div{
+		width:99.5%;
+		padding: 5px 0px 5px 0px;
+		margin: 5px 0px 5px 0px;
+	}
+
+}
+
+#search {
+	text-align:center!important;
+}
+
 
 .footer {
 	text-align:center;
@@ -159,8 +194,14 @@ body {
  	display:none;
  }
 
- #results {
- 	font-size:3em;
- 	font-weight:bold;
- 	text-align:left;
- }
+ 
+
+.column {
+  float: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

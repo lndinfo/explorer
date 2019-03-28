@@ -18,7 +18,7 @@
 
   <body>
 
-    <header id="header" class="header">
+    <header id="header" class="header cssblock">
 
       <div id="logo" class="logo">
           <a href="index.html"logo><img src="img/logo.png"></a>
@@ -30,25 +30,41 @@
           <a href="index.html">wallets</a>
           <a href="index.html">lapps</a>
       </div>
-      <div id="search" class="search">
-          <form id="searchform" class="searchform" onsubmit="return false;">
-            <input id="searchbox" class="searchbox">
-
-          </form>
+      <div id="options" class="options">
+      
       </div>
     </header>
-  	<div id="container">
+  	
+    <div id="container" class="row">
       
-  		  <div id="chartdiv">
+  		  <div id="chartdiv" class="column">
 
   		  </div>
-        <div id="results">
+        
+        <div id="results" class="results column">
+          <div id="nodes" class="cssblock">
+            Nodes
+          </div>
 
+          <div id="channels" class="cssblock">
+            Channels
+          </div>
+
+          <div id="capacity" class="cssblock">
+            Capacity
+          </div>
+
+          <div id="search" class="cssblock">
+            <form id="searchform" class="searchform" onsubmit="return false;">
+              <input id="searchbox" class="searchbox">
+            </form>
+
+          </div>
         </div>
 
   	</div>
 
-    <div id="footer" class="footer">
+    <div id="footer" class="footer cssblock">
       <hr>
       <div id="footer_links">
         <a href="index.html">about</a>
