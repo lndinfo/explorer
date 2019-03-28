@@ -1,4 +1,4 @@
-
+function coffee(){
 // Themes begin
 am4core.useTheme(am4themes_dark);
 am4core.useTheme(am4themes_animated);
@@ -42,7 +42,7 @@ let marker = chart.legend.markers.template.children.getIndex(0);
 chart.legend.markers.template.width = 40;
 chart.legend.markers.template.height = 40;
 marker.cornerRadius(20,20,20,20);
-
+}
 
 
 function maptest(){
@@ -365,3 +365,5 @@ setInterval(function () {
 }, 2000)
 
 }
+
+coffee();

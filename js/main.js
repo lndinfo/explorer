@@ -20,5 +20,5 @@ function showResults(){
  		maptest();
  		});
 
- }, 3000);
+ }, 2000);
  
