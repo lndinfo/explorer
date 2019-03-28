@@ -17,8 +17,8 @@ function showResults(){
 
  		});
  	}).empty().show(1, function(){
- 		boxes();
- 	});
+ 		maptest();
+ 		});
 
- }, 4000);
+ }, 3000);
  
