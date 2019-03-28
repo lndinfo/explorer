@@ -100,6 +100,41 @@ body {
 	color:#ffffff;
 }
 
+.footer {
+	text-align:center;
+	padding:14px 16px;
+	font-size:.8em;
+}
+
+.footer a {
+	float: center;
+	color: #222222;
+	text-align: center;
+	padding: 14px 5%;
+	text-decoration: none;
+}
+
+.footer a:visited {
+	color: #DDDDDD;
+}
+
+.footer a:hover {
+ 	color: #DDDDDD;
+}
+
+.footer a:active {
+	color: #DDDDDD;
+}
+
+.footer_logo{
+	padding-top:20px;
+	font-size:.5em;
+	color:#DDDDDD;
+}
+
+.footer_logo p{
+	margin:0;
+}
 
 .welcome {
 	font-family: calibri,sans-serif;
