@@ -140,7 +140,7 @@ body {
 
 .footer a {
 	float: center;
-	color: #222222;
+	color: #DDDDDD;
 	text-align: center;
 	padding: 14px 5%;
 	text-decoration: none;
@@ -216,4 +216,15 @@ body {
 .page {
 	color:#eeeeee;
 	height:70vh;
+}
+
+.page input, .page label {
+	display:block;
+}
+
+
+.single {
+	display:inline-block;
+	width:100%;
+	padding:10px;
 }
