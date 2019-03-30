@@ -209,5 +209,11 @@ body {
 .streetmap {
 	width:100%;
 	height:600px;
-	height:60vh;
+	height:70vh;
+
+}
+
+.page {
+	color:#eeeeee;
+	height:70vh;
 }
