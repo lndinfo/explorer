@@ -12,6 +12,6 @@ This will be a beginner-friendly site for newcomers to learn and get started wit
 5. Lightning Apps(Lapps) Directory
 
 ## URL (Coming Soon)
-'''https://lnd.indo.com'''
+```https://lnd.indo.com```
 
 This is an open sourced project intended for educational purposes only.
