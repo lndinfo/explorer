@@ -10,6 +10,7 @@ body {
 	background-color: #20f392;
 	padding: 20px;
 	display:block;
+	padding-bottom:30px;
 }
 
 .header div{
@@ -209,13 +210,15 @@ body {
 .streetmap {
 	width:100%;
 	height:600px;
-	height:70vh;
+	height:60vh;
+	border:0;
 
 }
 
 .page {
 	color:#eeeeee;
 	height:70vh;
+	padding:10px;
 }
 
 .page input, .page label {
