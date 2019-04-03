@@ -7,22 +7,44 @@ function numberWithCommas(x) {
     return parts.join(".");
 }
 
-var changeNumbers = setInterval(function(){
-	$(".resultsnumber .number").each(function(){
+var changeNodes = setInterval(function(){
+	$("#nodecount .number").each(function(){
 		var currentvalue = $( this ).text();
 		currentvalue = parseFloat(currentvalue.replace(/,/g, ''));
-		currentvalue *= 1.0003;
+		currentvalue += 1;
 		currentvalue = currentvalue.toFixed(0);
 		currentvalue = numberWithCommas(currentvalue);
 		$( this ).text(currentvalue);
 	});
-}, 5000);
+}, 7000);
+
+var changeChannels = setInterval(function(){
+	$("#channelcount .number").each(function(){
+		var currentvalue = $( this ).text();
+		currentvalue = parseFloat(currentvalue.replace(/,/g, ''));
+		currentvalue += 1;
+		currentvalue = currentvalue.toFixed(0);
+		currentvalue = numberWithCommas(currentvalue);
+		$( this ).text(currentvalue);
+	});
+}, 4000);
+
+var changeCapacity = setInterval(function(){
+	$("#capacitycount .number").each(function(){
+		var currentvalue = $( this ).text();
+		currentvalue = parseFloat(currentvalue.replace(/,/g, ''));
+		currentvalue += 0.01;
+		currentvalue = currentvalue.toFixed(2);
+		currentvalue = numberWithCommas(currentvalue);
+		$( this ).text(currentvalue);
+	});
+}, 4326);
 
 var changePercents = setInterval(function(){
 	$(".resultspercent .number").each(function(){
 		var currentvalue = $( this ).text();
 		currentvalue = parseFloat(currentvalue.replace(/,/g, ''));
-		currentvalue *= 1.01;
+		currentvalue *= 1.001;
 		currentvalue = currentvalue.toFixed(1);
 		currentvalue = numberWithCommas(currentvalue);
 		$( this ).text(currentvalue);
