@@ -65,7 +65,7 @@ body {
 }
 
 
-@media (max-width:800px){
+@media (max-width:950px){
 	.navigation, .logo, .options {
 	    width:100%;
 	    text-align:center;
@@ -74,6 +74,8 @@ body {
 	}
 	.navigation a{
    		font-size:.8em;
+   		padding:0px;
+   		margin:7px;
 
    }
 
