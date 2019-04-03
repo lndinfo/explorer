@@ -44,12 +44,12 @@ var changePercents = setInterval(function(){
 	$("#nodepercent .number, #channelpercent .number, #capacitypercent .number").each(function(){
 		var currentvalue = $( this ).text();
 		currentvalue = parseFloat(currentvalue.replace(/,/g, ''));
-		currentvalue *= 1.001;
+		currentvalue += 0.1;
 		currentvalue = currentvalue.toFixed(1);
 		currentvalue = numberWithCommas(currentvalue);
 		$( this ).text(currentvalue);
 	});
-}, 3000);
+}, 15000);
 
 var changeAmounts = setInterval(function(){
 	$("#capacityamount .number").each(function(){
