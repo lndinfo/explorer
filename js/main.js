@@ -41,7 +41,7 @@ var changeCapacity = setInterval(function(){
 }, 4326);
 
 var changePercents = setInterval(function(){
-	$(".resultspercent .number").each(function(){
+	$("#resultspercent .number").each(function(){
 		var currentvalue = $( this ).text();
 		currentvalue = parseFloat(currentvalue.replace(/,/g, ''));
 		currentvalue *= 1.001;
@@ -52,12 +52,12 @@ var changePercents = setInterval(function(){
 }, 3000);
 
 var changeAmounts = setInterval(function(){
-	$(".resultsamount .number").each(function(){
+	$("#capacityamount .number").each(function(){
 		var currentvalue = $( this ).text();
 		currentvalue = parseFloat(currentvalue.replace(/,/g, ''));
-		currentvalue += 1;
+		currentvalue += 111.11;
 		currentvalue = currentvalue.toFixed(2);
 		currentvalue = numberWithCommas(currentvalue);
 		$( this ).text(currentvalue);
 	});
-}, 150);
+}, 8000);
