@@ -179,6 +179,15 @@ body {
 
 #search {
 	text-align:center!important;
+	height:25px!important;
+
+}
+
+#searchbox{
+	background: transparent;
+    border: none;
+    width:100%;
+    color:#A2A2A2;
 }
 
 
