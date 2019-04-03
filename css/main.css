@@ -35,10 +35,17 @@ body {
 
 
 .navigation {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	background-color: #20f392;
 	text-align:center;
 	width:60%;
+	font-size:.85em;
+	font-weight:bolder;
+}
+
+#navigation {
+	position:relative;
+	top:15px;
 }
 
 .navigation a, .logo a {
@@ -48,6 +55,7 @@ body {
 	padding: 14px 16px;
 	text-decoration: none;
 }
+
 
 .options {
 	float:right;
@@ -75,11 +83,11 @@ body {
 }
 
 .navigation a:hover {
- 	color: #222222;
+ 	color: #fff;
 }
 
 .navigation a:active {
-	color: #222222;
+	color: #fff;
 }
 
 
