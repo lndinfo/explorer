@@ -40,7 +40,7 @@ body {
 	text-align:center;
 	width:60%;
 	font-size:.85em;
-	font-weight:bolder;
+	font-weight:bold;
 }
 
 #navigation {
@@ -131,7 +131,7 @@ body {
     height:60px;
  }
 
- #results div span {
+ #results div .styled {
  	position:absolute;
  	padding:3px;
  }
