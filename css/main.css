@@ -52,7 +52,8 @@ body {
 	float: center;
 	color: #222222;
 	text-align: center;
-	padding: 14px 16px;
+	margin: 15px 5%;
+	padding: 0px 0px 15px 0px;
 	text-decoration: none;
 }
 
@@ -73,7 +74,7 @@ body {
 	}
 	.navigation a{
    		font-size:.8em;
-   		padding: 14px 8px;
+
    }
 
 }
