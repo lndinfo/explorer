@@ -65,7 +65,7 @@ body {
 }
 
 
-@media (max-width:950px){
+@media (max-width:975px){
 	.navigation, .logo, .options {
 	    width:100%;
 	    text-align:center;
