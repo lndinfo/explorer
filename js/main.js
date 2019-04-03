@@ -41,7 +41,7 @@ var changeCapacity = setInterval(function(){
 }, 4326);
 
 var changePercents = setInterval(function(){
-	$("#resultspercent .number").each(function(){
+	$("#nodepercent .number, #channelpercent .number, #capacitypercent .number").each(function(){
 		var currentvalue = $( this ).text();
 		currentvalue = parseFloat(currentvalue.replace(/,/g, ''));
 		currentvalue *= 1.001;
